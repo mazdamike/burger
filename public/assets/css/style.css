@@ -1,0 +1,29 @@
+body {
+  background-color: #f3bf73;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+.form-group {
+  text-align: center;
+}
+#burg {
+  width: 300px;
+  height: 40px;
+}
+
+.submit-button  {
+  text-align: center;
+  padding: 8px;
+  margin: 10px;
+  background: blanchedalmond;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background: white;
+}
