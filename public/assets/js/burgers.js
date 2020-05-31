@@ -1,10 +1,11 @@
+// Change burger to devoured
 $(function() {
     $(".change-devoured").on("click", function(event) {
       var id = $(this).data("id");
       var newEaten = $(this).data("devoured");
   
       var newEatenState = {
-        devoured: newEaten
+        devoured: 1
       };
   
       // Send the PUT request.
@@ -20,6 +21,7 @@ $(function() {
       );
     });
   
+    // Create new burger
     $(".create-form").on("submit", function(event) {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
