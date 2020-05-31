@@ -10,3 +10,21 @@
         <button type="submit" class="submit-button">Submit</button>
     </div>
 </form>
+<p class="instruct">Enter a burger you want to eat and click the "Submit" button.</p>
+
+<ol>
+  {{#each burgers}}
+    {{#unless devoured}}
+      {{> burgers/burger-block devoured=true}}
+    {{/unless}}
+  {{/each}}
+</ol>
+
+
+<ol>
+  {{#each burgers}}
+    {{#if devoured}}
+      {{> burgers/devoured-block}}
+    {{/if}}
+  {{/each}}
+</ol>

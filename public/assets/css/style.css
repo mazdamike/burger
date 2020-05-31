@@ -19,11 +19,15 @@ header {
   text-align: center;
   padding: 8px;
   margin: 10px;
-  background: blanchedalmond;
+  background: bisque;
   font-weight: bold;
   cursor: pointer;
 }
 
 .submit-button:active {
   background: white;
+}
+
+.instruct {
+  text-align: center;
 }
